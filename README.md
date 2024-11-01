@@ -14,6 +14,12 @@
 5. Установка пароля для пользователя
    - `sudo passwd <пароль>`
 6. Как изменять права
-7. Как удалить папку и файлы внутри
+    - `sudo adduser <название пользователя> sudo`
+        - https://askubuntu.com/a/1414685
+    - `sudo` - get root previges
+    - `adduser` - used for adding users and adding user to groups for more info run `adduser --help`
+    - `<название пользователя>` the user to add to the group
+    - `sudo` - the group to add the user
+8. Как удалить папку и файлы внутри
    - rm -rf <название папки>
      - ? что означают каждая из команд
