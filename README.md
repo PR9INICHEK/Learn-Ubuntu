@@ -30,6 +30,7 @@
    - `rm -rf <название папки>`
      - ? что означают каждая из команд
          - `rm` - скорее всего сокращение от слова **remove**
+     - https://rebrainme.com/blog/linux/kak-udalyat-fajly-i-direktorii-v-linux/
 10. Как выполнить команду из под конкретного пользователя
      - `sudo -u <имя пользователя> {команда}`
          - `-u`, `--user=user` - run command (or edit file) as specified user name or ID
