@@ -6,7 +6,7 @@
 3. Как можно поймать майнер
 4. Как создавать пользователя и зачем
     - `sudo useradd -m <название пользователя>`
-        - -m, --create-home             create the user's home directory
+        - `-m, --create-home` - create the user's home directory
     - ? есть ли другие команды
     - ? зачем создавать нового пользователя
         - > Do not run steamcmd while operating as the root user. Doing so is a security risk.
