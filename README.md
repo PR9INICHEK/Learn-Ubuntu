@@ -31,3 +31,5 @@
 10. Как выполнить команду из под конкретного пользователя
      - `sudo -u <имя пользователя> {команда}`
          - `-u`, `--user=user` - run command (or edit file) as specified user name or ID
+     - Например `sudo -u <имя пользователя> -s` запустит терминал(shell) из под этого пользователя
+         - `-s`, `--shell` - run shell as the target user; a command may also be specified
