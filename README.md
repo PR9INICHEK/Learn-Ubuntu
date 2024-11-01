@@ -40,3 +40,8 @@
 11. Установка приложений(application)
     - `apt-get`
     - 
+
+# Почитать
+1. https://www.pathname.com/fhs/pub/fhs-2.3.html
+2. https://www.tutorialspoint.com/unix/what-is-linux.htm
+3. 
