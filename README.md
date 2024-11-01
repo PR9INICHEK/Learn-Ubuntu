@@ -7,6 +7,7 @@
 4. Как узнать, какие ещё есть доступные аргументы для команд
     - `--help`, `-h`
          - краткая форма бывает иногда занята...
+         - Например у той же `ls` -  `-h`, `--human-readable` - with -l and -s, print sizes like 1K 234M 2G etc.
 6. Как создавать пользователя и зачем
     - `sudo useradd -m <имя пользователя>`
         - `-m`, `--create-home` - create the user's home directory
