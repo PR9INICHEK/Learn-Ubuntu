@@ -25,6 +25,7 @@
     - `adduser` - used for adding users and adding user to groups for more info run `adduser --help`
     - `<название пользователя>` the user to add to the group
     - `sudo` - the group to add the user
+    - СУДЯ ПО ВСЕМУ ПРАВА НАДО МЕНЯТЬ ДЛЯ ВСЕХ СОЗДАННЫХ ПОЛЬЗОВАТЕЛЕЙ, иначе можно получать ошибку `bf2server is not in the sudoers file.`
 9. Как удалить папку и файлы внутри
    - `rm -rf <название папки>`
      - ? что означают каждая из команд
