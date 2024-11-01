@@ -8,7 +8,7 @@
     - `--help`, `-h`
          - краткая форма бывает иногда занята...
 6. Как создавать пользователя и зачем
-    - `sudo useradd -m <название пользователя>`
+    - `sudo useradd -m <имя пользователя>`
         - `-m`, `--create-home` - create the user's home directory
         - Есть `-p`, `--password PASSWORD` - encrypted password of the new account
             - То есть можно при создании пользователя ему сразу и пароль навесить
@@ -17,9 +17,9 @@
         - > Do not run steamcmd while operating as the root user. Doing so is a security risk.
             - https://developer.valvesoftware.com/wiki/SteamCMD#Linux
 7. Установка пароля для пользователя
-   - `sudo passwd <пароль>`
+   - `sudo passwd <имя пользователя>`
 8. Как изменять права
-    - `sudo adduser <название пользователя> sudo`
+    - `sudo adduser <имя пользователя> sudo`
         - https://askubuntu.com/a/1414685
     - `sudo` - get root previges
     - `adduser` - used for adding users and adding user to groups for more info run `adduser --help`
