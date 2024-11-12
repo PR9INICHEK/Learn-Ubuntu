@@ -36,17 +36,20 @@
     - `<название пользователя>` the user to add to the group
     - `sudo` - the group to add the user
     - СУДЯ ПО ВСЕМУ ПРАВА НАДО МЕНЯТЬ ДЛЯ ВСЕХ СОЗДАННЫХ ПОЛЬЗОВАТЕЛЕЙ, иначе можно получать ошибку `<имя пользователя> is not in the sudoers file.`
-9. Как удалить папку и файлы внутри
+9. Как проверять, какие права установлены
+    - `ls -l ~/.ssh/`
+        - **TODO** Выяснить, что значат эти команды
+10. Как удалить папку и файлы внутри
    - `rm -rf <название папки>`
    - ? что означают каждая из команд
        - `rm` - скорее всего сокращение от слова **remove**
    - https://rebrainme.com/blog/linux/kak-udalyat-fajly-i-direktorii-v-linux/
-10. Как выполнить команду из под конкретного пользователя
+11. Как выполнить команду из под конкретного пользователя
     - `sudo -u <имя пользователя> {команда}`
          - `-u`, `--user=user` - run command (or edit file) as specified user name or ID
      - Например `sudo -u <имя пользователя> -s` запустит терминал(shell) из под этого пользователя
          - `-s`, `--shell` - run shell as the target user; a command may also be specified
-11. Установка приложений(application)
+12. Установка приложений(application)
     - `apt-get`
     - 
 
