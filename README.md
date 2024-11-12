@@ -1,6 +1,4 @@
-# Learn-Ubuntu
-
-## Всякие мыслишки:
+# Всякие мыслишки:
 1. Описать, как отключать доступ по паролю
 2. Как настраивать SSH
     - https://selectel.ru/blog/tutorials/how-to-generate-ssh/
