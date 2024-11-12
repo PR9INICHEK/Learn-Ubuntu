@@ -1,6 +1,6 @@
 # Learn-Ubuntu
 
-Всякие мыслишки:
+## Всякие мыслишки:
 1. Описать, как отключать доступ по паролю
 2. Как настраивать SSH
     - https://selectel.ru/blog/tutorials/how-to-generate-ssh/
@@ -56,4 +56,5 @@
 # Почитать
 1. https://www.pathname.com/fhs/pub/fhs-2.3.html
 2. https://www.tutorialspoint.com/unix/what-is-linux.htm
-3. 
+3. https://phoenixnap.com/glossary/what-is-root-access
+4. 
