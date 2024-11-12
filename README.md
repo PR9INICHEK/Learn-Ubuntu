@@ -5,6 +5,7 @@
 2. Как настраивать SSH
     - https://selectel.ru/blog/tutorials/how-to-generate-ssh/
     - https://selectel.ru/blog/ssh-keys/
+    - https://phoenixnap.com/kb/ssh-to-connect-to-remote-server-linux-or-windows#ftoc-heading-8
     - `cd ..` - чтобы попасть в папку /home
     - `sudo mkdir .ssh`
     - `cd .ssh`
