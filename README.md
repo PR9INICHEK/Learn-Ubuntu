@@ -5,6 +5,12 @@
 2. Как настраивать SSH
     - https://selectel.ru/blog/tutorials/how-to-generate-ssh/
     - https://selectel.ru/blog/ssh-keys/
+    - `cd ..` - чтобы попасть в папку /home
+    - `sudo mkdir .ssh`
+    - `cd .ssh`
+    - `sudo mkdir authorized_keys`
+    - `sudo nano`
+        - создал файл с названием _public_ и перенёс в него данные
 3. Как можно поймать майнер
 4. Как узнать, какие ещё есть доступные аргументы для команд
     - `--help`, `-h`
