@@ -6,6 +6,7 @@
     - https://phoenixnap.com/kb/ssh-to-connect-to-remote-server-linux-or-windows#ftoc-heading-8
     - https://phoenixnap.com/kb/ssh-with-key
     - Попадаем в папку `/home/<имя пользователя>`
+    - проверяем своими шарами, что папки _.ssh_ не существует, с помощью `ls -a`
     - `sudo mkdir .ssh`
     - `cd .ssh`
     - `sudo nano authorized_keys`
