@@ -57,3 +57,7 @@
 2. https://www.tutorialspoint.com/unix/what-is-linux.htm
 3. https://phoenixnap.com/glossary/what-is-root-access
 4. 
+
+# Видео:
+1. https://www.youtube.com/watch?v=HX0LN3Zpovk
+2. 
