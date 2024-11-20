@@ -62,7 +62,7 @@
 
 https://www.youtube.com/watch?v=PvBp7tRgQV4:
 1. `cd -` - переход к предыдущей директории
-2. 
+2. `Ctrl + A` | `Ctrl + E` - переход к началу/концу строки. Если вдруг не фурычат Home и End
 
 # Почитать
 1. https://www.pathname.com/fhs/pub/fhs-2.3.html
