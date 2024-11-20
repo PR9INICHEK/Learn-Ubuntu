@@ -53,6 +53,8 @@
     - 
 13. Если название файла начинается с точки, то это значит, что он скрытый
     - Почерпнул отсюда - https://www.youtube.com/watch?v=I4ff1HCrpsg
+14. `pwd` для показа текущей директории
+    - Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q
 
 # Почитать
 1. https://www.pathname.com/fhs/pub/fhs-2.3.html
