@@ -56,7 +56,7 @@
 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
-1. `pwd` для показа текущей директории
+1. `pwd` - для показа текущей директории - Present Working Directory
 2. `cd ~` - переход к домашней директории
 3. 
 
