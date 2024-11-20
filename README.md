@@ -60,6 +60,9 @@
 2. `cd ~` - переход к домашней директории
 3. 
 
+https://www.youtube.com/watch?v=PvBp7tRgQV4:
+1. `cd -` - переход к предыдущей директории
+2. 
 
 # Почитать
 1. https://www.pathname.com/fhs/pub/fhs-2.3.html
