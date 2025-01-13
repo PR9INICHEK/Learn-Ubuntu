@@ -27,9 +27,12 @@
     - ? зачем создавать нового пользователя
         - > Do not run steamcmd while operating as the root user. Doing so is a security risk.
             - https://developer.valvesoftware.com/wiki/SteamCMD#Linux
-7. Установка пароля для пользователя
+7. Удаление пользователя
+    - `sudo deluser --remove-home your_user`
+        - https://askubuntu.com/a/1013603
+8. Установка пароля для пользователя
    - `sudo passwd <имя пользователя>`
-8. Как изменять права
+9. Как изменять права
     - `sudo adduser <имя пользователя> sudo`
         - https://askubuntu.com/a/1414685
     - `sudo` - get root previges
@@ -37,25 +40,25 @@
     - `<название пользователя>` the user to add to the group
     - `sudo` - the group to add the user
     - СУДЯ ПО ВСЕМУ ПРАВА НАДО МЕНЯТЬ ДЛЯ ВСЕХ СОЗДАННЫХ ПОЛЬЗОВАТЕЛЕЙ, иначе можно получать ошибку `<имя пользователя> is not in the sudoers file.`
-9. Как проверять, какие права установлены
+10. Как проверять, какие права установлены
     - `ls -l ~/.ssh/`
         - **TODO** Выяснить, что значат эти команды
-10. Как удалить папку и файлы внутри
+11. Как удалить папку и файлы внутри
     - `rm -rf <название папки>`
     - ? что означают каждая из команд
         - `rm` - скорее всего сокращение от слова **remove**
     - https://rebrainme.com/blog/linux/kak-udalyat-fajly-i-direktorii-v-linux/
-11. Как выполнить команду из под конкретного пользователя
+12. Как выполнить команду из под конкретного пользователя
     - `sudo -u <имя пользователя> {команда}`
          - `-u`, `--user=user` - run command (or edit file) as specified user name or ID
      - Например `sudo -u <имя пользователя> -s` запустит терминал(shell) из под этого пользователя
          - `-s`, `--shell` - run shell as the target user; a command may also be specified
-12. Установка приложений(application)
+13. Установка приложений(application)
     - `apt-get`
     - 
-13. Если название файла начинается с точки, то это значит, что он скрытый
+14. Если название файла начинается с точки, то это значит, что он скрытый
     - Почерпнул отсюда - https://www.youtube.com/watch?v=I4ff1HCrpsg
-14. Перезагрузка сервера при сообщении "System restart required"
+15. Перезагрузка сервера при сообщении "System restart required"
     - `sudo reboot`
     - https://askubuntu.com/questions/258297/should-i-always-restart-the-system-when-i-see-system-restart-required
 
