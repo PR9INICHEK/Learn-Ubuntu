@@ -53,7 +53,9 @@
     - 
 13. Если название файла начинается с точки, то это значит, что он скрытый
     - Почерпнул отсюда - https://www.youtube.com/watch?v=I4ff1HCrpsg
-
+14. Перезагрузка сервера при сообщении "System restart required"
+    - `sudo reboot`
+    - https://askubuntu.com/questions/258297/should-i-always-restart-the-system-when-i-see-system-restart-required
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
 1. `pwd` - для показа текущей директории - Present Working Directory
