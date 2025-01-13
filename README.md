@@ -21,6 +21,8 @@
         - `-m`, `--create-home` - create the user's home directory
         - Есть `-p`, `--password PASSWORD` - encrypted password of the new account
             - То есть можно при создании пользователя ему сразу и пароль навесить
+        - -s, --shell SHELL             login shell of the new account
+            - Скорее всего сразу на его консоль и переключиться можно
     - ? есть ли другие команды
     - ? зачем создавать нового пользователя
         - > Do not run steamcmd while operating as the root user. Doing so is a security risk.
