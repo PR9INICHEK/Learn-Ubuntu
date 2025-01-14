@@ -43,7 +43,7 @@
     - `sudo` - the group to add the user
     - СУДЯ ПО ВСЕМУ ПРАВА НАДО МЕНЯТЬ ДЛЯ ВСЕХ СОЗДАННЫХ ПОЛЬЗОВАТЕЛЕЙ, иначе можно получать ошибку `<имя пользователя> is not in the sudoers file.`
     - выдавать судо так:
-        `sudo usermod -aG sudo user`  from Tevdore at Telegram
+        `sudo usermod -aG sudo user` from Tevdore at Telegram
 10. Как проверять, какие права установлены
     - `ls -l ~/.ssh/`
         - **TODO** Выяснить, что значат эти команды
@@ -65,6 +65,12 @@
 15. Перезагрузка сервера при сообщении "System restart required"
     - `sudo reboot`
     - https://askubuntu.com/questions/258297/should-i-always-restart-the-system-when-i-see-system-restart-required
+16. Если используется _sh_ вместо **bash** --- from Tevdore at Telegram
+    - `echo $0` на выходе будет **-sh**
+    - `sudo cat /etc/sudoers`
+    - `cat /etc/passwd` и смотрим, какая у пользователя shell
+    - 
+17. 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
 1. `pwd` - для показа текущей директории - Present Working Directory
