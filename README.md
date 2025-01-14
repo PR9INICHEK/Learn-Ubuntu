@@ -71,7 +71,9 @@
     - `cat /etc/passwd` и смотрим в конце строки, какая у пользователя shell
         - Например `armarserver:x:1000:1000::/home/armarserver:/bin/sh`
     - Меняем на bash с помощью `sudo visudo /etc/passwd`
-17. 
+17. `tmux`
+    - https://tmuxcheatsheet.com/
+18. 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
 1. `pwd` - для показа текущей директории - Present Working Directory
