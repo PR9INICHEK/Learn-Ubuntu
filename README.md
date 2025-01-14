@@ -68,8 +68,9 @@
 16. Если используется _sh_ вместо **bash** --- from Tevdore at Telegram
     - `echo $0` на выходе будет **-sh**
     - `sudo cat /etc/sudoers`
-    - `cat /etc/passwd` и смотрим, какая у пользователя shell
-    - 
+    - `cat /etc/passwd` и смотрим в конце строки, какая у пользователя shell
+        - Например `armarserver:x:1000:1000::/home/armarserver:/bin/sh`
+    - Меняем на bash с помощью `sudo visudo /etc/passwd`
 17. 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
