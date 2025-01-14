@@ -27,6 +27,8 @@
     - ? зачем создавать нового пользователя
         - > Do not run steamcmd while operating as the root user. Doing so is a security risk.
             - https://developer.valvesoftware.com/wiki/SteamCMD#Linux
+    - лучше добавляй так:
+        `adduser user` from Tevdore at Telegram
 7. Удаление пользователя
     - `sudo deluser --remove-home your_user`
         - https://askubuntu.com/a/1013603
@@ -40,6 +42,8 @@
     - `<название пользователя>` the user to add to the group
     - `sudo` - the group to add the user
     - СУДЯ ПО ВСЕМУ ПРАВА НАДО МЕНЯТЬ ДЛЯ ВСЕХ СОЗДАННЫХ ПОЛЬЗОВАТЕЛЕЙ, иначе можно получать ошибку `<имя пользователя> is not in the sudoers file.`
+    - выдавать судо так:
+        `sudo usermod -aG sudo user`  from Tevdore at Telegram
 10. Как проверять, какие права установлены
     - `ls -l ~/.ssh/`
         - **TODO** Выяснить, что значат эти команды
