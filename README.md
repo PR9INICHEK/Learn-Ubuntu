@@ -93,3 +93,8 @@ https://www.youtube.com/watch?v=PvBp7tRgQV4:
 # Видео:
 1. https://www.youtube.com/watch?v=HX0LN3Zpovk
 2. 
+
+
+# Инструменты для Windows
+1. https://www.xshell.com/en/free-for-home-school/
+2. 
