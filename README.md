@@ -88,7 +88,8 @@ https://www.youtube.com/watch?v=PvBp7tRgQV4:
 1. https://www.pathname.com/fhs/pub/fhs-2.3.html
 2. https://www.tutorialspoint.com/unix/what-is-linux.htm
 3. https://phoenixnap.com/glossary/what-is-root-access
-4. 
+4. https://phoenixnap.com/kb/touch-command-in-linux
+5. 
 
 # Видео:
 1. https://www.youtube.com/watch?v=HX0LN3Zpovk
