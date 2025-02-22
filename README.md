@@ -73,7 +73,10 @@
     - Меняем на bash с помощью `sudo visudo /etc/passwd`
 17. `tmux`
     - https://tmuxcheatsheet.com/
-18. 
+18. Обновление системы - https://askubuntu.com/a/196777
+    - `sudo apt update`
+    - `sudo apt upgrade`
+19. 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
 1. `pwd` - для показа текущей директории - Present Working Directory
