@@ -76,6 +76,7 @@
 18. Обновление системы - https://askubuntu.com/a/196777
     - `sudo apt update`
     - `sudo apt upgrade`
+    - И в конце `sudo reboot now`
 19. 
 
 Узнал отсюда - https://www.youtube.com/watch?v=qwopGsaNF_Q:
