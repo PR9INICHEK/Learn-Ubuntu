@@ -93,7 +93,8 @@ https://www.youtube.com/watch?v=PvBp7tRgQV4:
 2. https://www.tutorialspoint.com/unix/what-is-linux.htm
 3. https://phoenixnap.com/glossary/what-is-root-access
 4. https://phoenixnap.com/kb/touch-command-in-linux
-5. 
+5. https://wiki.archlinux.org/title/Systemd#Basic_systemctl_usage
+6. 
 
 # Видео:
 1. https://www.youtube.com/watch?v=HX0LN3Zpovk
